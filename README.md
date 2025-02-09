@@ -7,5 +7,5 @@ Team Members:
 2. patel mansi (Team Member)
 3. Farida Ghuriwala (Team Member)
 4. Joy Mackwan (Team Member)
-3. Vidisha Dave (Team Member)
-3. Harendra (Team Member)
+5. Vidisha Dave (Team Member)
+6. Harendra (Team Member)
