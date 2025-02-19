@@ -1,8 +1,11 @@
-# React + Vite
+# Facebook-clone
+This is our college project for creating a facebook clone using MERN stack.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Team Members:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Syed Ahmed Zaid (Team Lead) 
+2. patel mansi (Team Member)
+3. Farida Ghuriwala (Team Member)
+4. Joy Mackwan (Team Member)
+5. Vidisha Dave (Team Member)
+6. Harendra (Team Member)
