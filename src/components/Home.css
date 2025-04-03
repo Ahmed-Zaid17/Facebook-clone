@@ -5,21 +5,21 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    width: 100%;
+    /* width: 100%; */
   }
   
   /* Navbar */
   .fb-navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: white;
-    padding: 10px 20px;
+    padding: 10px 0px 10px 0px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-    width: 139.8%;
+    width: 100%;
   }
   
   .fb-logo {
@@ -27,7 +27,7 @@ body {
   }
   
   .fb-search {
-    width: 40%;
+    width: 30%;
     padding: 8px;
     border-radius: 20px;
     border: none;
@@ -43,23 +43,29 @@ body {
   .fb-container {
     display: flex;
     justify-content: space-between;
-    width: 120%;
+    /* width: 120%; */
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
+ 
   
   }
   
-  /* Sidebar */
-  .fb-sidebar {
-    width: 165%;
+ 
+
+   .fb-sidebar {
+    width: 20%;
     background: white;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    margin-right: 2%;
-  
-  }
-  
+    position: sticky;
+    left: 2%;
+    top: 80px; /* Below the navbar */
+    height: calc(100vh - 60px);
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
   .fb-sidebar ul {
     list-style: none;
     padding: 0;
@@ -79,7 +85,8 @@ body {
   
   /* Main Content */
   .fb-main-content {
-    width: 55%;
+    width: 70%;
+    padding-top: 2%;
   }
   
   /* Story Section */
@@ -87,6 +94,10 @@ body {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    overflow-x: scroll;
+    width: 80%;
+    overflow: hidden;
+
   }
   
   .story {
@@ -111,6 +122,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+    width: 74%;
   }
   
   .fb-post-box input {
@@ -149,6 +161,7 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 74%;
   }
   
   .post-actions button {
@@ -170,7 +183,7 @@ body {
   
   .sponsored-section{
       width: 200px;
-      padding-left: 1rem;
+      padding-left:2px;
   }
   
   

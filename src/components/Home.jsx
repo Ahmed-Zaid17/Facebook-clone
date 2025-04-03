@@ -1,96 +1,11 @@
-// import { useState } from "react";
-// import "./Home.css";
-
-
-// function FacebookHome() {
-//   const [posts, setPosts] = useState(Array(10).fill({
-//     user: "Syed Ahmed Zaid",
-//     content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit? 🐱"
-//   }));
-
-//   return (
-//     <div className="fb-container">
-//       <div className="fb-sidebar">
-//         <div className="profile-section">Syaidah Arifa Ahmad</div>
-//         <ul>
-//           <li>Friends</li>
-//           <li>Memories</li>
-//           <li>Saved</li>
-//           <li>Groups</li>
-//           <li>Video</li>
-//           <li>Marketplace</li>
-//           <li>Feeds</li>
-//           <li>Events</li>
-//           <li>See more</li>
-//         </ul>
-//       </div>
-//       <div className="fb-main-content">
-//         <div className="fb-story-section">
-//           <div className="story">Create Story</div>
-//           <div className="story">Shah Sahab</div>
-//           <div className="story">Sweet Stitches</div>
-//           <div className="story">Reacts with Hassan</div>
-//           <div className="story">Our Vadodara</div>
-//         </div>
-//         <div className="fb-post-box">
-//           <input type="text" placeholder="What's on your mind, Syaidah?" />
-//           <div className="post-options">
-//             <button>Live Video</button>
-//             <button>Photo/Video</button>
-//             <button>Feeling/Activity</button>
-//           </div>
-//         </div>
-//         <div className="fb-feed">
-//           {posts.map((post, index) => (
-//             <div key={index} className="fb-post">
-//               <h3>{post.user}</h3>
-//               <p>{post.content}</p>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//       <div className="fb-right-sidebar">
-//         <div className="sponsored-section">
-//           <h4>Sponsored</h4>
-//           <div className="sponsored-ad">airindia.com</div>
-//           <div className="sponsored-ad">Lenskart Air</div>
-//         </div>
-//         <div className="contacts-section">
-//           <h4>Contacts</h4>
-//           <ul>
-//             <li>Zainab Khalid</li>
-//             <li>Aiman Zia</li>
-//             <li>Ahmar Siddiqui</li>
-//             <li>Imtiyaz Ahmed</li>
-//             <li>Syed Usama</li>
-//           </ul>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default FacebookHome;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 import { useState } from "react";
 import "./Home.css";
+// import { Link } from "react-router-dom";
+
 
 function FacebookHome() {
-  const [posts, setPosts] = useState(Array(5).fill({
+  const [posts, setPosts] = useState(Array(100).fill({
     user: "Syed Ahmed Zaid",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 🐱"
   }));
@@ -102,6 +17,7 @@ function FacebookHome() {
         <div className="fb-logo">🔵</div>
         <input type="text" placeholder="Search Facebook" className="fb-search" />
         <div className="fb-icons">
+          
           <span>🏠</span>
           <span>👥</span>
           <span>🎥</span>
@@ -117,7 +33,7 @@ function FacebookHome() {
         <div className="fb-sidebar">
           <div className="profile-section">syed ahmed zaid</div>
           <ul>
-            <li>👤 Friends</li>
+            <li>👤 Chats</li>
             <li>📅 Memories</li>
             <li>🔖 Saved</li>
             <li>👥 Groups</li>
@@ -138,6 +54,9 @@ function FacebookHome() {
             <div className="story">🧵 Sweet Stitches</div>
             <div className="story">🎭 Reacts with Hassan</div>
             <div className="story">🏏 Our Vadodara</div>
+            <div className="story">🧔 Our Gujarat</div>
+            <div className="story">🧔 Our Gujarat</div>
+            
           </div>
 
           {/* Post Box */}
@@ -167,16 +86,16 @@ function FacebookHome() {
         </div>
 
         {/* Right Sidebar */}
-        <div className="fb-right-sidebar">
+        {/* <div className="fb-right-sidebar"> */}
           {/* Sponsored Section */}
-          <div className="sponsored-section">
+          {/* <div className="sponsored-section">
             <h4>Sponsored</h4>
             <div className="sponsored-ad">🌍 airindia.com</div>
             <div className="sponsored-ad">👓 Lenskart Air</div>
-          </div>
+          </div> */}
 
           {/* Contacts Section */}
-          <div className="contacts-section">
+          {/* <div className="contacts-section">
             <h4>Contacts</h4>
             <ul>
               <li>🟢 Zainab Khalid</li>
@@ -185,8 +104,8 @@ function FacebookHome() {
               <li>🟢 Imtiyaz Ahmed</li>
               <li>🟢 Syed Usama</li>
             </ul>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </div>
   );
